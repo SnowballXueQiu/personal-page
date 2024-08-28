@@ -77,7 +77,7 @@ const map = new Map();
 
     function myTime() {
         const obj = {};
-        const options = { timeZone: 'Asia/Ho_Chi_Minh', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: false, day: 'numeric', month: 'numeric', year: 'numeric' };
+        const options = { timeZone: 'Asia/Shanghai', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: false, day: 'numeric', month: 'numeric', year: 'numeric' };
         new Intl.DateTimeFormat([], options).formatToParts(new Date()).forEach(({ type, value }) => obj[type] = +value);
         return obj;
     };
@@ -142,10 +142,16 @@ function update(selector, value = '') {
 
     const e = document.querySelector(selector);
 
+    console.log(selector, e);
+
+    if (e == null) {
+        return;
+    }
+
     if (value.startsWith('rotate')) e.style.transform = value;
     else if (value.match(/^#[a-f0-9]+$/)) e.style.backgroundColor = value;
     else if (value.startsWith('--image')) e.style.setProperty(value.split(':')[0], value.split(' ')[1]);
-    else if (value === '' && (['#large_image', '#small_image'].includes(selector))) e.removeAttribute('style');
+    else if (value === '' && (['#large_image', '#small_image'].includes(selector))) return;
     else e.textContent = value;
 
     map.set(selector, value);
