@@ -1,0 +1,439 @@
+
+.kawaii-button {
+	min-width: 100px;
+    max-width: 90%;
+    margin-top: 30px;
+    margin-left: auto;
+    display: block;
+    outline: none;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    transition: .1s;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 2px solid transparent;
+}
+.kawaii-button:hover {
+	opacity: .9;
+}
+.kawaii-button:active {
+	transform: translateY(1px);
+	box-shadow: 0 0 0 ;
+}
+.message #heading {
+	white-space: pre-wrap;
+}
+.break-btn {
+	float: right;
+}
+.kb-center {
+	margin: auto;
+	text-align: center;
+}
+.kb-right {
+	margin-left: auto;
+	text-align: center;
+}
+.kb-left {
+	margin-right: auto;
+	text-align: center;
+}
+.kawaii-button-box {
+	width: fit-content;
+	max-width: 100%;
+}
+.kawaii-button-box button{
+	display: inline-block;
+	margin: 2px;
+}
+.btns span {
+	box-sizing: border-box;
+	cursor: pointer;
+	height: 20px;
+	width: 20px;
+	padding-top: 2px;
+	padding-left: 5px;
+	display: inline-block;
+	margin-left: auto ;
+	font-weight: bold;
+}
+.kawaii-header .btns {
+	/*float: right;*/
+}
+.kawaii-header {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.window-title {
+	height: fit-content;
+}
+.kawaii-button-box {
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+h3 {
+	font-size: 1.6em;
+}
+
+/*kawaii a*/
+
+	.kawaii-a {
+		font-family: 'VCR_OSD_MONO', sans-serif;
+		box-sizing: border-box;
+		border-radius: 3px;
+		background: #fff;
+		border: 1px solid #bf6666;
+		color: #bf6666;
+
+		box-shadow: 3px 3px 0 #7d3434;
+	}
+	.kawaii-a .message {
+		padding: 0 15px;
+		/*text-shadow: 2px 2px 0 #fee;*/
+		text-shadow: none;
+	}
+	.kawaii-a .kawaii-header{
+		border-radius:  0;
+		padding: 5px 15px 8px 15px;
+		background: #ffa7a7;
+		/*background-image: url('https://images.pexels.com/photos/545521/pexels-photo-545521.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') ;*/
+		background-position: center;
+		background-size: cover;
+		border-bottom: 1px solid #bf6666;
+	}
+	.kawaii-a .window-title {
+		color: #fff;
+		text-shadow: 1px 1px 0 #7d3434;
+	}
+	.kawaii-a .btns span {
+		height: auto;
+		width: auto;
+		padding: 2px 5px;
+		margin-left: 5px;
+		border: 1px solid #bf6666;
+		border-radius: 3px;
+		box-shadow: 3px 3px 0 #7d3434;
+		background: #fee;
+	}
+	.kawaii-a .btns span:active{
+		transform: translateY(2px);
+		box-shadow: 1px 1px 0 #7d3434;
+	}
+	.kawaii-a .kawaii-button {
+		border-radius: 4px;
+	    color: #fff;
+	    border: 1px solid #bf6666;
+		border-radius: 3px;
+		box-shadow: 3px 3px 0 #7d3434;
+		background: #fee;
+		color: #bf6666;
+		font-family: 'VCR_OSD_MONO', sans-serif;
+		margin-top: 5px;
+	}
+	.kawaii-a .secondary-button {
+	border: 2px solid #bf6666;
+	color: #bf6666!important;
+	}
+
+/*end kawaii a*/
+/*kawaii b*/
+
+	.kawaii-b {
+		box-sizing: border-box;
+		border-radius: 0px;
+		background: #e18880;
+		color: #e18880;
+		background-position: center;
+		background-size: cover;
+	}
+	.kawaii-b .message {
+		padding: 0 15px;
+		font-size: 19px; 
+		font-weight: normal;
+		background: #ffd0d0;
+		color: #e18880;
+		border: 2px solid #e18880;
+		border-top: none;
+	}
+	.kawaii-b .kawaii-header{
+		border-radius:  0;
+		padding: 5px 15px 8px 15px;
+		background: #ffd0d0;
+		border: 2px solid #e18880;
+		/*border-bottom: none;*/
+		color: #e18880;
+
+	}
+	.kawaii-b #heading {
+		margin:  0;
+		padding-top: 30px;
+		margin-bottom: 15px;
+		line-height: 1;
+		font-size: 1.3em;
+	}
+	.kawaii-b .message-content {
+		margin-bottom: 30px;
+	}
+	.kawaii-b .window-title {
+		color: #e18880;
+	}
+	.kawaii-b .btns span {
+		height: auto;
+		width: auto;
+		padding: 2px 5px;
+		margin-left: 5px;
+	}
+	.kawaii-b .btns span:active{
+		transform: scale(.98);
+	}
+	.kawaii-b .kawaii-button-box {
+		margin: 0 -15px 0 -15px;
+		background: #ffd0d0;
+		width: 100%;
+		padding: 10px 15px;
+		text-align: right;
+	}
+	.kawaii-b .kawaii-button {
+		border-radius: 0px;
+		background: #fee;
+		color: #e18880;	
+		border: 2px solid #e18880;
+		padding: 2px;
+	}
+	.kawaii-b h3 {
+		font-weight: normal;
+	}
+	
+/*end kawaii b*/
+
+/*kawaii c*/
+
+	.kawaii-c {
+		margin-top: 20px;
+		box-sizing: border-box;
+		background: transparent;
+		border: none;
+		color: #ffa7a7;
+		font-family: "Fredoka";
+		font-weight: normal;
+		position: relative;
+	}
+	.kawaii-c .kawaii-header{
+		border-radius:  0;
+		padding: 3px 15px;
+		border: 5px solid #ffa7a7;
+		border-radius: 20px 20px 0 0;
+		color: #fff;
+		background: #ffa7a7;
+	}
+	.kawaii-c #heading {
+		margin:  0;
+		padding-top: 30px;
+		margin-bottom: 15px;
+		line-height: 1;
+		font-size: 1.3em;
+		z-index: 3;
+	}
+	.kawaii-c .message {
+		border: 5px solid #ffa7a7;
+		border-top: none;
+		background: #fff;
+		z-index: 0;
+		padding: 0 15px;
+		border-radius: 0 0 20px 20px;
+	}
+	.kawaii-c .message-content {
+		margin-bottom: 30px;
+	}
+	.kawaii-c .btns span {
+		height: auto;
+		width: auto;
+		padding: 2px 5px;
+		margin-left: 5px;
+	}
+	.kawaii-c .btns span:active{
+		transform: scale(.98);
+	}
+	.kawaii-c .kawaii-button {
+		border-radius: 20px;
+		color: #fff;	
+		background: #ffa7a7;
+		border: 5px solid #ffa7a7;
+		padding: 2px 2px;
+		font-family: "Fredoka";
+	}
+	.kawaii-c h3 {
+		font-weight: normal;
+	}
+	.kawaii-c::after {
+	    content: "";
+		position: absolute; 
+		background: #ffa7a7;
+		width: 50px;
+		height: 70px;
+		z-index: -1;
+		position: absolute; top: -18px; left: 40px;
+		border-radius: 100px;
+		-moz-border-radius: 100px;
+		-webkit-border-radius: 100px;
+	}
+	.kawaii-c::before {
+	    content: "";
+		position: absolute; 
+		background: #ffa7a7;
+		width: 50px;
+		height: 70px;
+		z-index: -1;
+		position: absolute; top: -18px; right: 40px;
+		border-radius: 100px;
+		-moz-border-radius: 100px;
+		-webkit-border-radius: 100px;
+	}
+
+/*end kawaii c*/
+
+/*kawaii d*/
+
+	.kawaii-d {
+		margin-top: 20px;
+		box-sizing: border-box;
+		background: transparent;
+		border: none;
+		color: #454545;
+		font-family: "OpenSans Condensed";
+		font-weight: normal;
+		position: relative;
+	}
+	.kawaii-d .kawaii-header{
+		border-radius:  0;
+		padding: 7px 15px;
+		border: 1px solid #454545;
+		color: #454545;
+		background: #ffa7a7;
+	}
+	.kawaii-d #heading {
+		margin:  0;
+		padding-top: 30px;
+		margin-bottom: 15px;
+		line-height: 1;
+		font-size: 1.3em;
+		z-index: 3;
+	}
+	.kawaii-d .message {
+		border: 1px solid #454545;
+		border-top: none;
+		background: #fff;
+		z-index: 0;
+		padding: 0 15px;
+		border-radius: 0;
+	}
+	.kawaii-d .message-content {
+		margin-bottom: 30px;
+	}
+	.kawaii-d .btns span {
+		height: auto;
+		width: auto;
+		padding: 0 8px;
+		margin-left: 5px;
+		border: 3px double #454545;
+		box-shadow: 0 2px 0;
+		background: #eee;
+		font-size: .8em;
+	}
+	.kawaii-d .btns span:active{
+		transform: scale(.98);
+	}
+	.kawaii-d .kawaii-button {
+		color: #454545;	
+		background: #eee;
+		border: 3px double #454545;
+		padding: 1px 6px;
+		font-family: "OpenSans Condensed";
+		box-shadow: 0 2px 0;
+	}
+	.kawaii-d h3 {
+		font-weight: normal;
+	}
+
+/*end kawaii d*/
+
+
+
+/*kawaii e*/
+
+	.kawaii-e {
+		margin-top: 20px;
+		box-sizing: border-box;
+		background: #fff;
+		border: none;
+		color: #ffa7a7;
+		font-family: "Poppins";
+		font-weight: normal;
+		position: relative;
+		overflow: hidden;
+		border-radius: 50px;
+		padding: 15px;
+		border: 1px solid #ffa7a7;
+	}
+	.kawaii-e .kawaii-header{
+		color: #ffa7a7;
+	}
+	.kawaii-e #heading {
+		margin:  0;
+		padding-top: 0;
+		margin-bottom: 15px;
+		line-height: 1.2;
+		font-size: 1.3em;
+		z-index: 3;
+		font-weight: bold;
+	}
+	.kawaii-e .window-title, .kawaii-e #control-min {
+		display: none;
+	}
+	.kawaii-e .message {
+		text-align: center;
+		border-top: none;
+		z-index: 0;
+		padding: 15px;
+	}
+	.kawaii-e .message-content {
+		margin-bottom: 30px;
+	}
+	.kawaii-e .btns {
+		margin: auto;
+		text-align: center;
+	}
+	.kawaii-e .btns span {
+		box-sizing: border-box;
+		height: 23px;
+		width: 23px;
+		padding: 2px 7px;
+		color: #fff;
+		font-size: 13px;
+		background: #ffa7a7;
+		border-radius: 20px;
+	}
+	.kawaii-e .btns span:active{
+		transform: scale(.98);
+	}
+	.kawaii-e .kawaii-button-box  {
+		margin: auto;
+		text-align: center;
+		border-top: 1px solid #ffa7a7;
+		width: 100%;
+	}
+	.kawaii-e .kawaii-button {
+		border-radius: 20px;
+		color: #ffa7a7;	
+		background: transparent;
+		border: none;
+		margin: 5px 5px 0 5px;
+		font-family: "Poppins";
+	}
+	.kawaii-e h3 {
+		font-weight: normal;
+	}
+
+/*end kawaii e*/
