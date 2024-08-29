@@ -301,7 +301,7 @@ i {
 	box-sizing: border-box;
 	position: relative;
 	height: min-content;
-	min-height: 100vh;
+	min-height: calc(100vh - 39.2px - 10.5px);
 	padding:  10px 50px;
 }
 
