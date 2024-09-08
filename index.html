@@ -281,4 +281,26 @@
 
 </body>
 
+<script>
+	// 监听 window 的滚动事件并阻止默认行为
+	window.addEventListener('scroll', function(event) {
+	  // 禁止滚动条默认行为
+	  window.scrollTo(0, 0);
+	  event.preventDefault();
+	});
+	
+	// 同时禁用键盘上的箭头、PageUp、PageDown 键导致的滚动
+	window.addEventListener('keydown', function(event) {
+	  const keys = [32, 33, 34, 35, 36, 37, 38, 39, 40]; // 键盘上控制滚动的键
+	  if (keys.includes(event.keyCode)) {
+		event.preventDefault(); // 阻止默认滚动行为
+	  }
+	});
+  
+	// 禁用鼠标滚轮导致的滚动
+	window.addEventListener('wheel', function(event) {
+	  event.preventDefault(); // 阻止默认滚动行为
+	}, { passive: false });
+  </script>
+
 </html>
